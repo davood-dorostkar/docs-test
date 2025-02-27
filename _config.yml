@@ -13,6 +13,7 @@ aux_links:
 nav_order: 1
 search_enabled: true
 
+
 nav:
   - title: "Home"
     url: "/"
