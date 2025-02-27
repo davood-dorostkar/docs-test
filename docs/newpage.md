@@ -12,5 +12,5 @@ We describe a descriptor f as an n dimensional vector associated with each featu
 
 ---
 
-[Homepage]({{ site.baseurl }}/docs/index.md)
+[Homepage]({{ site.baseurl }}/index)
 

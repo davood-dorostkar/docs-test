@@ -2,10 +2,10 @@ title: Example Site
 description: A starter template for a Jekyll site using the Just the Docs theme!
 theme: just-the-docs
 color_scheme: dark
-source: docs
+# source: docs
 
 url: "https://davood-dorostkar.github.io"
-baseurl: "/docs-test"
+# baseurl: "/docs-test"
 
 aux_links:
   Template Repository: https://github.com/davood-dorostkar/docs-test
