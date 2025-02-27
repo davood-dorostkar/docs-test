@@ -1,5 +1,6 @@
 ---
 title: Feature Descriptors
+layout: default
 nav_order: 2
 ---
 # Feature Descriptors
