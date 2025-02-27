@@ -8,7 +8,7 @@ url: "https://davood-dorostkar.github.io"
 # baseurl: "/docs-test"
 
 aux_links:
-  Template Repository: https://github.com/davood-dorostkar/docs-test
+  Source Repository: https://github.com/davood-dorostkar/docs-test
 
 nav_order: 1
 search_enabled: true
