@@ -1,6 +1,7 @@
 ---
 title: Home
-layout: home
+layout: default
+nav_order: 1
 ---
 
 # Feature Detection Algorithms
@@ -8,7 +9,7 @@ layout: home
 ## Harris (corner)
 The most famous corner detector is the Harris Corner Detector, which uses image gradient information to identify pixels that have a strong change in intensity in both x and y directions.
 
-### issue: the corners detected by Harris corner detectors are not scale invariant, meaning that the corners can look different depending on the distance the camera is away from the object generating the corner. 
+**issue**: the corners detected by Harris corner detectors are not scale invariant, meaning that the corners can look different depending on the distance the camera is away from the object generating the corner. 
 
 Harris-Laplace (corner)
 To remedy this problem, researchers proposed the Harris-Laplace corner detector. Harris-Laplace detectors detect corners at different scales and choose the best scale based on the Laplacian of the image.
@@ -26,4 +27,5 @@ Here you can see corners detected by the Harris Corner Detector. The features pr
 Here you can see Harris-Laplace features on the same image. By using the Laplacian to determine scale, we can detect scale and variant corners that can be more easily matched as a vehicle moves relative to the scene. Scale is represented here by the size of the circle around each feature. The larger the circle, the larger the principal scale of that feature.
 
 ----
-see the new page at [newpage](docs/newpage.md)
+See the new page at [newpage]({{ site.baseurl }}/docs/newpage.md)
+
