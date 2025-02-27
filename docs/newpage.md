@@ -1,3 +1,7 @@
+---
+title: Feature Descriptors
+nav_order: 2
+---
 # Feature Descriptors
 our end goal is to use match features between two different images for localization, object detection, and other perception tasks that require depth estimation to points in the environment. To do so, we need to describe features in a way that it allows for feature comparison to determine the best match between frames. We therefore assign a descriptor to every feature point in an image.
 

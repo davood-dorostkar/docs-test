@@ -27,5 +27,5 @@ Here you can see corners detected by the Harris Corner Detector. The features pr
 Here you can see Harris-Laplace features on the same image. By using the Laplacian to determine scale, we can detect scale and variant corners that can be more easily matched as a vehicle moves relative to the scene. Scale is represented here by the size of the circle around each feature. The larger the circle, the larger the principal scale of that feature.
 
 ----
-See the new page at [newpage]({{ site.baseurl }}/docs/newpage.md)
+See the new page at [newpage]({{ site.baseurl }}/newpage)
 

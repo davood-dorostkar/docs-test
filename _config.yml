@@ -1,10 +1,10 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: Example Site
+description: A starter template for a Jekyll site using the Just the Docs theme!
 theme: just-the-docs
-color_scheme: dark 
+color_scheme: dark
 source: docs
 
-url: https://davood-dorostkar.github.io/docs-test
+url: "https://davood-dorostkar.github.io"
 baseurl: "/docs-test"
 
 aux_links:
@@ -13,11 +13,8 @@ aux_links:
 nav_order: 1
 search_enabled: true
 
-
-nav:
-  - title: "Home"
-    url: "/"
-  - title: "New Page"
-    url: "/docs/newpage.md"
-  - title: "Setup"
-    url: "/docs/setup.md"
+# Automatically generate the navigation sidebar
+collections:
+  docs:
+    output: true
+    permalink: /:collection/:path/
