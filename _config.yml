@@ -1,8 +1,21 @@
 title: Just the Docs Template
 description: A starter template for a Jeykll site using the Just the Docs theme!
 theme: just-the-docs
+color_scheme: dark 
 
 url: https://davood-dorostkar.github.io/docs-test
 
 aux_links:
   Template Repository: https://github.com/davood-dorostkar/docs-test
+
+nav_order: 1
+search_enabled: true
+
+# Navigation order
+nav:
+  - title: "Home"
+    url: "/"
+  - title: "newpage"
+    url: "/newpage.md"
+  - title: "Setup"
+    url: "/setup.md"

@@ -4,3 +4,7 @@ our end goal is to use match features between two different images for localizat
 ## Feature descriptor definition
 Mathematically, we define a feature point by its coordinates u and v in the image frame.
 We describe a descriptor f as an n dimensional vector associated with each feature.
+
+---
+
+[Homepage](docs/index.md)
